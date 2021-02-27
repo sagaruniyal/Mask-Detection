@@ -1,0 +1,32 @@
+Face Mask Detection using Python| OpenCV | Machine Learning
+Today it has become mandatory for all the citizens to wear a face mask to protect themselves . This application can be helpful for all the shop owners, offices, banks or any public place because if anyone is not wearing a mask then he or she must not be allowed in that area. So, to take care of this problem we don’t need any guard or person who keeps a watch on people. We can integrate a camera which continuously clicks pictures of humans and detect from there faces whether they are wearing a face mask or not.
+
+Steps to perform image Processing
+1 Load image using python or any other programming :- we can collect data either from video or camera
+2 Convert images into array :- array will give the rgb values at every index
+we use opencv to understand how images is converted into array
+opencv which is going to help us to load the images into array what the values of array will be i.e rgb also we are to convert this rgb value into gray scale i.e black and white 
+3 After loading images We can perform any algorithm on array we have .
+Introduction opencv
+OpenCV(open source computer vision library) is an open source Computer vision and machine learning software library.
+The library has more than 2500 optimized algorithms.
+It has c++,python,java, and MATLAB interfaces and support window,linux,android and Mac OS.
+will help us to load the images in Python and convert them into array.
+Each index of array represent (red,green,blue) color pixel which ranges from 0(towards the dark) to 255(towards the white).
+
+How Computer See image?
+A computer doesn't see an image, but a matrix of pixels, each of which has three components: red, green and blue. Therefore, a 1,000-pixel image for us will have 3,000 pixels for a computer.
+
+OpenCV Features
+-Face detection
+-Geometric Transformations
+-Image thresholding
+-Smothing Images
+-Canny Edge Detection
+-Background Removals
+-Image Segmentations
+
+shift+tab = for check documentation and alt+tab = for switching tabs
+
+cv2.waitkey(2)=27 ---> 2 millisecond it is wait and then switch to another window (for context switching we should add atleast some time)
+ 
